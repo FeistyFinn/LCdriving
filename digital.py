@@ -1,4 +1,5 @@
 """
+Failed Attempt
 Generates a square wave with ADALM2000 50% duty cycle at 60hz with 5V amplitude
 """
 from time import sleep

@@ -1,7 +1,7 @@
 """
 Created on 6/9/2023
 Author: Alex Ye, 661975303
-[TEMPLATE: FILE DESCRIPTION]
+Animate the voltage levels
 """
 import multiprocessing as mp
 from analog import Analog

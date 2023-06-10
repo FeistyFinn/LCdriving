@@ -1,5 +1,4 @@
 """
-Failed Attempt
 Generates a square wave with ADALM2000 50% duty cycle at 60hz with 5V amplitude
 """
 import libm2k
@@ -43,6 +42,10 @@ class Analog:
         return A * np.sign(np.sin(2 * np.pi * w * self.t))
 
     def plot_input(self):
+        """
+        plots the analog input 0 for sanity check
+        :rtype: object
+        """
         # plot analog input 0
         if not self.plotting:
             return

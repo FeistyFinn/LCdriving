@@ -1,7 +1,7 @@
 """
 Created on 6/8/2023
 Author: Alex Ye, 661975303
-[TEMPLATE: FILE DESCRIPTION]
+testing the math for generating square wave
 """
 import numpy as np
 import matplotlib.pyplot as plt
